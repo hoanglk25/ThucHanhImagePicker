@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickImageViewController" customModule="ThucHanhImagePicker" customModuleProvider="target">
+            <connections>
+                <outlet property="ageTextField" destination="eKt-GI-Fu1" id="gCE-ah-ARF"/>
+                <outlet property="avatarImage" destination="uEX-6m-9Sx" id="bPc-Eo-1Ne"/>
+                <outlet property="doneButton" destination="XEF-gW-5pv" id="whn-H1-Yd3"/>
+                <outlet property="fullNameTextField" destination="FWI-vH-xhM" id="ZJI-g1-bzB"/>
+                <outlet property="setAvatarButton" destination="PzE-5K-VRQ" id="6JI-Fy-5Nx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatarDefault" translatesAutoresizingMaskIntoConstraints="NO" id="uEX-6m-9Sx">
+                    <rect key="frame" x="96.666666666666686" y="150" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="5oK-Td-S4h"/>
+                        <constraint firstAttribute="width" secondItem="uEX-6m-9Sx" secondAttribute="height" multiplier="1:1" id="aw3-U6-yo9"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PzE-5K-VRQ">
+                    <rect key="frame" x="121.66666666666669" y="370" width="150" height="50"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="1Ln-WT-zwC"/>
+                        <constraint firstAttribute="width" secondItem="PzE-5K-VRQ" secondAttribute="height" multiplier="3" id="7tr-qg-J2V"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Set Avatar"/>
+                    <connections>
+                        <action selector="didTapSetAvaTarButton:" destination="-1" eventType="touchUpInside" id="yZW-fG-gkv"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="ZvJ-Yi-nJW">
+                    <rect key="frame" x="20" y="480" width="353" height="93"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FWI-vH-xhM">
+                            <rect key="frame" x="0.0" y="0.0" width="353" height="34"/>
+                            <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eKt-GI-Fu1">
+                            <rect key="frame" x="0.0" y="59" width="353" height="34"/>
+                            <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEF-gW-5pv">
+                    <rect key="frame" x="0.0" y="792" width="393" height="60"/>
+                    <color key="backgroundColor" name="AccentColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="D9c-Sq-P2d"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="DONE"/>
+                    <connections>
+                        <action selector="didTapDoneButton:" destination="-1" eventType="touchUpInside" id="bw3-BQ-WmO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ZvJ-Yi-nJW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3JZ-RO-upc"/>
+                <constraint firstItem="ZvJ-Yi-nJW" firstAttribute="top" secondItem="PzE-5K-VRQ" secondAttribute="bottom" constant="60" id="AHF-WM-YvC"/>
+                <constraint firstItem="ZvJ-Yi-nJW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CsA-WJ-xDt"/>
+                <constraint firstItem="XEF-gW-5pv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Dbv-2X-RT2"/>
+                <constraint firstItem="PzE-5K-VRQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WqI-En-rwt"/>
+                <constraint firstItem="uEX-6m-9Sx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="YcT-GZ-DMW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XEF-gW-5pv" secondAttribute="trailing" id="biN-xu-jhm"/>
+                <constraint firstItem="uEX-6m-9Sx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kBv-Ie-k4P"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZvJ-Yi-nJW" secondAttribute="trailing" constant="20" id="lif-wh-kH2"/>
+                <constraint firstAttribute="bottom" secondItem="XEF-gW-5pv" secondAttribute="bottom" id="pfQ-db-1eJ"/>
+                <constraint firstItem="PzE-5K-VRQ" firstAttribute="top" secondItem="uEX-6m-9Sx" secondAttribute="bottom" constant="20" id="sq3-si-A2O"/>
+            </constraints>
+            <point key="canvasLocation" x="52.671755725190835" y="-11.971830985915494"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatarDefault" width="650" height="410"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

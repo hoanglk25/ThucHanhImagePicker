@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "414405EF-E3EB-4DD0-8D3F-0AB0F082E016"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11CB6415-8C86-48A9-92AE-2A2CF9550043"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThucHanhImagePicker/Controllers/PickImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "didTapDoneButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A32198FC-A8A8-436A-863F-2AF83BF0C580"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThucHanhImagePicker/Controllers/PickImageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "PickImageViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A32198FC-A8A8-436A-863F-2AF83BF0C580 - 4569533508021e2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThucHanhImagePicker.PickImageViewController.infomation.getter : ThucHanhImagePicker.Infomation"
+                  moduleName = "ThucHanhImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/IOS%2006/ThucHanhImagePicker/ThucHanhImagePicker/Controllers/PickImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "A32198FC-A8A8-436A-863F-2AF83BF0C580 - 70827bfc9f185658"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThucHanhImagePicker.PickImageViewController.infomation.setter : ThucHanhImagePicker.Infomation"
+                  moduleName = "ThucHanhImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/IOS%2006/ThucHanhImagePicker/ThucHanhImagePicker/Controllers/PickImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "A32198FC-A8A8-436A-863F-2AF83BF0C580 - 9b99303c85d07c29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThucHanhImagePicker.PickImageViewController.infomation.modify : ThucHanhImagePicker.Infomation"
+                  moduleName = "ThucHanhImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/IOS%2006/ThucHanhImagePicker/ThucHanhImagePicker/Controllers/PickImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A32198FC-A8A8-436A-863F-2AF83BF0C580 - 88d32b1201f53478"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThucHanhImagePicker.PickImageViewController.infomation.modify : ThucHanhImagePicker.Infomation with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ThucHanhImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/IOS%2006/ThucHanhImagePicker/ThucHanhImagePicker/Controllers/PickImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "A32198FC-A8A8-436A-863F-2AF83BF0C580 - e0c8c0263b398c89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThucHanhImagePicker.PickImageViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ThucHanhImagePicker.PickImageViewController"
+                  moduleName = "ThucHanhImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/IOS%2006/ThucHanhImagePicker/ThucHanhImagePicker/Controllers/PickImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "A32198FC-A8A8-436A-863F-2AF83BF0C580 - 967c4b3fc9f06cc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThucHanhImagePicker.PickImageViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ThucHanhImagePicker.PickImageViewController&gt;"
+                  moduleName = "ThucHanhImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Desktop/IOS%2006/ThucHanhImagePicker/ThucHanhImagePicker/Controllers/PickImageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
